@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-17T15:23:18 PKT" name="Default suite" finished-at="2024-12-17T15:23:18 PKT" duration-ms="196">
+    <groups>
+    </groups>
+    <test started-at="2024-12-17T15:23:18 PKT" name="Default test" finished-at="2024-12-17T15:23:18 PKT" duration-ms="196">
+      <class name="extentreport.basicextentreport">
+        <test-method is-config="true" signature="StartReporter()[pri:0, instance:extentreport.basicextentreport@185a6e9]" started-at="2024-12-17T15:23:18 PKT" name="StartReporter" finished-at="2024-12-17T15:23:18 PKT" duration-ms="38" status="FAIL">
+          <exception class="java.nio.file.InvalidPathException">
+            <message>
+              <![CDATA[Illegal char <"> at index 0: "C:\Users\Mohsin QA\Desktop\Seleniumautomation framework\codestudio\test-output\Demo Extent report]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\Mohsin QA\Desktop\Seleniumautomation framework\codestudio\test-output\Demo Extent report
+at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
+at java.base/java.io.File.toPath(File.java:2401)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:40)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at extentreport.basicextentreport.StartReporter(basicextentreport.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.InvalidPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReporter -->
+        <test-method signature="launchbrowser()[pri:0, instance:extentreport.basicextentreport@185a6e9]" started-at="2024-12-17T15:23:18 PKT" name="launchbrowser" finished-at="2024-12-17T15:23:18 PKT" duration-ms="0" status="SKIP">
+          <exception class="java.nio.file.InvalidPathException">
+            <message>
+              <![CDATA[Illegal char <"> at index 0: "C:\Users\Mohsin QA\Desktop\Seleniumautomation framework\codestudio\test-output\Demo Extent report]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\Mohsin QA\Desktop\Seleniumautomation framework\codestudio\test-output\Demo Extent report
+at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
+at java.base/java.io.File.toPath(File.java:2401)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:40)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at extentreport.basicextentreport.StartReporter(basicextentreport.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.InvalidPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:extentreport.basicextentreport@185a6e9]" started-at="2024-12-17T15:23:18 PKT" name="getTestResult" finished-at="2024-12-17T15:23:18 PKT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="verifEmail()[pri:0, instance:extentreport.basicextentreport@185a6e9]" started-at="2024-12-17T15:23:18 PKT" name="verifEmail" finished-at="2024-12-17T15:23:18 PKT" duration-ms="1" status="SKIP">
+          <exception class="java.nio.file.InvalidPathException">
+            <message>
+              <![CDATA[Illegal char <"> at index 0: "C:\Users\Mohsin QA\Desktop\Seleniumautomation framework\codestudio\test-output\Demo Extent report]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\Mohsin QA\Desktop\Seleniumautomation framework\codestudio\test-output\Demo Extent report
+at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
+at java.base/java.io.File.toPath(File.java:2401)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:40)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at extentreport.basicextentreport.StartReporter(basicextentreport.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.InvalidPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifEmail -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:extentreport.basicextentreport@185a6e9]" started-at="2024-12-17T15:23:18 PKT" name="getTestResult" finished-at="2024-12-17T15:23:18 PKT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="veriflogo()[pri:0, instance:extentreport.basicextentreport@185a6e9]" started-at="2024-12-17T15:23:18 PKT" name="veriflogo" finished-at="2024-12-17T15:23:18 PKT" duration-ms="0" status="SKIP">
+          <exception class="java.nio.file.InvalidPathException">
+            <message>
+              <![CDATA[Illegal char <"> at index 0: "C:\Users\Mohsin QA\Desktop\Seleniumautomation framework\codestudio\test-output\Demo Extent report]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\Mohsin QA\Desktop\Seleniumautomation framework\codestudio\test-output\Demo Extent report
+at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
+at java.base/java.io.File.toPath(File.java:2401)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:40)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at extentreport.basicextentreport.StartReporter(basicextentreport.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.InvalidPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veriflogo -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:extentreport.basicextentreport@185a6e9]" started-at="2024-12-17T15:23:18 PKT" name="getTestResult" finished-at="2024-12-17T15:23:18 PKT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="verifytitle()[pri:0, instance:extentreport.basicextentreport@185a6e9]" started-at="2024-12-17T15:23:18 PKT" name="verifytitle" finished-at="2024-12-17T15:23:18 PKT" duration-ms="1" status="SKIP">
+          <exception class="java.nio.file.InvalidPathException">
+            <message>
+              <![CDATA[Illegal char <"> at index 0: "C:\Users\Mohsin QA\Desktop\Seleniumautomation framework\codestudio\test-output\Demo Extent report]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\Mohsin QA\Desktop\Seleniumautomation framework\codestudio\test-output\Demo Extent report
+at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
+at java.base/java.io.File.toPath(File.java:2401)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:40)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at extentreport.basicextentreport.StartReporter(basicextentreport.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.InvalidPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:extentreport.basicextentreport@185a6e9]" started-at="2024-12-17T15:23:18 PKT" name="getTestResult" finished-at="2024-12-17T15:23:18 PKT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="verifyusername()[pri:0, instance:extentreport.basicextentreport@185a6e9]" started-at="2024-12-17T15:23:18 PKT" name="verifyusername" finished-at="2024-12-17T15:23:18 PKT" duration-ms="0" status="SKIP">
+          <exception class="java.nio.file.InvalidPathException">
+            <message>
+              <![CDATA[Illegal char <"> at index 0: "C:\Users\Mohsin QA\Desktop\Seleniumautomation framework\codestudio\test-output\Demo Extent report]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\Mohsin QA\Desktop\Seleniumautomation framework\codestudio\test-output\Demo Extent report
+at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
+at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
+at java.base/java.io.File.toPath(File.java:2401)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:40)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at extentreport.basicextentreport.StartReporter(basicextentreport.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.nio.file.InvalidPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyusername -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:extentreport.basicextentreport@185a6e9]" started-at="2024-12-17T15:23:18 PKT" name="getTestResult" finished-at="2024-12-17T15:23:18 PKT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+      </class> <!-- extentreport.basicextentreport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
